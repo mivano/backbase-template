@@ -9,8 +9,19 @@ spec:
   type: website
   lifecycle: production
   owner: recipe-team
-  system: artist-engagement-portal
+  system: baker-buddy
   dependsOn:
     - resource:default/recipe-api
+    - resource:default/recipe-db
   providesApis:
     - recipe-api
+
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: recipe-db
+  description: Stores recipe details
+spec:
+  type: database
+  owner: recipe-team
+  system: baker-buddy
