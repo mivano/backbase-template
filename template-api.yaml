@@ -10,7 +10,7 @@ metadata:
     - title: Documentation
       url: https://backstage.io/docs
   annotations:
-    github.com/project-slug: mivano/backstage-template
+    github.com/project-slug: mivano/backstage-recipe-api
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
