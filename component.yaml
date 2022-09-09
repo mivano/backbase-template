@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: recipe-web
   description: The place to be, for great recipes
+  annotations:
+    github.com/project-slug: 'mivano/backstage-recipe-api'
 spec:
   type: website
   lifecycle: production
