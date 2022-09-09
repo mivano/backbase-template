@@ -5,6 +5,7 @@ metadata:
   description: The place to be, for great recipes
   annotations:
     github.com/project-slug: 'mivano/backstage-recipe-api'
+    azure.com/tag-selector: 'app/backstage-recipe-api'
 spec:
   type: website
   lifecycle: production
