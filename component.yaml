@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: recipe-web
+  description: The place to be, for great recipes
+spec:
+  type: website
+  lifecycle: production
+  owner: recipe-team
+  system: artist-engagement-portal
+  dependsOn:
+    - resource:default/recipe-api
+  providesApis:
+    - recipe-api
