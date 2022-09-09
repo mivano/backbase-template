@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: recipe-api
   description: |
@@ -9,15 +9,11 @@ metadata:
       url: http://xpirit.com
     - title: Documentation
       url: https://backstage.io/docs
-    - title: Storybook
-      url: https://backstage.io/storybook
-    - title: Discord Chat
-      url: https://discord.com/invite/EBHEGzX
   annotations:
     github.com/project-slug: mivano/backstage-template
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: api
-  owner: CNCF
-  lifecycle: experimental
+  type: openapi
+  owner: team-recipe
+  lifecycle: production
