@@ -17,3 +17,6 @@ spec:
   type: openapi
   owner: team-recipe
   lifecycle: production
+  definition:
+    $text: https://api.apis.guru/v2/specs/spotify.com/v1/swagger.yaml
+  
