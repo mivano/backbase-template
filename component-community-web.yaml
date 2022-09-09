@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: recipe-web-community
+  description: The place to be, for great recipes
+  annotations:
+    github.com/project-slug: 'mivano/backstage-recipe-api'
+spec:
+  type: website
+  lifecycle: production
+  owner: recipe-team
+  system: baker-buddy
+  dependsOn:
+    - resource:default/recipe-api
