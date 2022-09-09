@@ -11,4 +11,4 @@ spec:
   owner: recipe-team
   system: baker-buddy
   dependsOn:
-    - resource:default/recipe-api
+    - component:default/recipe-web
